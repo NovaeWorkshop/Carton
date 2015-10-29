@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 47;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C5417071BE221C600872AB4 /* CartonWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5417061BE221C600872AB4 /* CartonWindow.swift */; };
+		9C5417091BE2233200872AB4 /* CartonWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C5417081BE2233200872AB4 /* CartonWindow.xib */; };
+		9C54170B1BE2391B00872AB4 /* CartonPolicyDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C54170A1BE2391B00872AB4 /* CartonPolicyDelegate.swift */; };
+		9C54170E1BE2445600872AB4 /* carton in Resources */ = {isa = PBXBuildFile; fileRef = 9C54170D1BE2445600872AB4 /* carton */; };
+		9C5417121BE263FE00872AB4 /* CartonUrlProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5417111BE263FE00872AB4 /* CartonUrlProtocol.swift */; };
+		9C9277FB1BE2211200E4385A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9277FA1BE2211200E4385A /* AppDelegate.swift */; };
+		9C9277FD1BE2211200E4385A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C9277FC1BE2211200E4385A /* Assets.xcassets */; };
+		9C9278001BE2211200E4385A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C9277FE1BE2211200E4385A /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9C5417061BE221C600872AB4 /* CartonWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartonWindow.swift; sourceTree = "<group>"; };
+		9C5417081BE2233200872AB4 /* CartonWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CartonWindow.xib; sourceTree = "<group>"; };
+		9C54170A1BE2391B00872AB4 /* CartonPolicyDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartonPolicyDelegate.swift; sourceTree = "<group>"; };
+		9C54170D1BE2445600872AB4 /* carton */ = {isa = PBXFileReference; lastKnownFileType = folder; name = carton; path = Carton/carton; sourceTree = "<group>"; };
+		9C5417111BE263FE00872AB4 /* CartonUrlProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartonUrlProtocol.swift; sourceTree = SOURCE_ROOT; };
+		9C9277F71BE2211200E4385A /* Carton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Carton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C9277FA1BE2211200E4385A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9C9277FC1BE2211200E4385A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9C9277FF1BE2211200E4385A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		9C9278011BE2211200E4385A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C9277F41BE2211200E4385A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C54170C1BE243E300872AB4 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				9C54170D1BE2445600872AB4 /* carton */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		9C9277EE1BE2211200E4385A = {
+			isa = PBXGroup;
+			children = (
+				9C54170C1BE243E300872AB4 /* App */,
+				9C9277F91BE2211200E4385A /* Carton */,
+				9C9277F81BE2211200E4385A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9C9277F81BE2211200E4385A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C9277F71BE2211200E4385A /* Carton.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C9277F91BE2211200E4385A /* Carton */ = {
+			isa = PBXGroup;
+			children = (
+				9C5417111BE263FE00872AB4 /* CartonUrlProtocol.swift */,
+				9C9277FA1BE2211200E4385A /* AppDelegate.swift */,
+				9C5417061BE221C600872AB4 /* CartonWindow.swift */,
+				9C54170A1BE2391B00872AB4 /* CartonPolicyDelegate.swift */,
+				9C9277FC1BE2211200E4385A /* Assets.xcassets */,
+				9C9277FE1BE2211200E4385A /* MainMenu.xib */,
+				9C9278011BE2211200E4385A /* Info.plist */,
+				9C5417081BE2233200872AB4 /* CartonWindow.xib */,
+			);
+			path = Carton;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C9277F61BE2211200E4385A /* Carton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C9278041BE2211200E4385A /* Build configuration list for PBXNativeTarget "Carton" */;
+			buildPhases = (
+				9C9277F31BE2211200E4385A /* Sources */,
+				9C9277F41BE2211200E4385A /* Frameworks */,
+				9C9277F51BE2211200E4385A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Carton;
+			productName = Carton;
+			productReference = 9C9277F71BE2211200E4385A /* Carton.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C9277EF1BE2211200E4385A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Just a Computer";
+				TargetAttributes = {
+					9C9277F61BE2211200E4385A = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 9C9277F21BE2211200E4385A /* Build configuration list for PBXProject "Carton" */;
+			compatibilityVersion = "Xcode 6.3";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9C9277EE1BE2211200E4385A;
+			productRefGroup = 9C9277F81BE2211200E4385A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C9277F61BE2211200E4385A /* Carton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C9277F51BE2211200E4385A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C5417091BE2233200872AB4 /* CartonWindow.xib in Resources */,
+				9C54170E1BE2445600872AB4 /* carton in Resources */,
+				9C9277FD1BE2211200E4385A /* Assets.xcassets in Resources */,
+				9C9278001BE2211200E4385A /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C9277F31BE2211200E4385A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C54170B1BE2391B00872AB4 /* CartonPolicyDelegate.swift in Sources */,
+				9C5417071BE221C600872AB4 /* CartonWindow.swift in Sources */,
+				9C5417121BE263FE00872AB4 /* CartonUrlProtocol.swift in Sources */,
+				9C9277FB1BE2211200E4385A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9C9277FE1BE2211200E4385A /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C9277FF1BE2211200E4385A /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9C9278021BE2211200E4385A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9C9278031BE2211200E4385A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9C9278051BE2211200E4385A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Carton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "just-a-computer.Carton";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9C9278061BE2211200E4385A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Carton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "just-a-computer.Carton";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C9277F21BE2211200E4385A /* Build configuration list for PBXProject "Carton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C9278021BE2211200E4385A /* Debug */,
+				9C9278031BE2211200E4385A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C9278041BE2211200E4385A /* Build configuration list for PBXNativeTarget "Carton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C9278051BE2211200E4385A /* Debug */,
+				9C9278061BE2211200E4385A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C9277EF1BE2211200E4385A /* Project object */;
+}
